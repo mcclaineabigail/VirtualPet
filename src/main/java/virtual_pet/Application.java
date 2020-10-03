@@ -7,7 +7,7 @@ public class Application {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Fuzzy Virtual Pet Shelter!");
-        System.out.println("We just had our first pet arrive, what would you like to name it?");
+        System.out.println("We just had our first pet arrive!");
 
         PetShelter shelter = new PetShelter();
         shelter.addVirtualPet();
